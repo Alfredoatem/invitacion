@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background: #ec6e6e;*/
+    background-image: url('1.jpg');
+    background-size: 2000px 1000px;
+}
+
+.contenedor{
+    margin: auto;
+    width: 900px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.titulo{
+    margin-bottom: 20px;
+}
+.opciones{
+    margin: auto;
+
+}
+.opciones p{
+    background: black;
+    display: initial;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+p.p1{
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+    /*justify-content: center;*/
+    width: 100px;
+}
+p.p1:hover{
+    background: rgb(15, 142, 201);
+    cursor: pointer;
+}
+
+p.p2{
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    /*justify-content: center;*/
+    width: 100px;
+}
+p.p2:hover{
+    background: rgb(236, 248, 73);
+    color: black;
+    cursor: pointer;
+}
+#si{
+    background: #05a000;
+    left: 420px;
+    position: absolute;
+    top: 122px;
+    width: 550px;
+    color: #ffffff;
+    padding: 50px;
+    display: none;
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        /*background-color: blue;*/
+        background-image: url("2.png");
+        background-size: 400px 900px;
+    }
+
+    .contenedor{
+        background: rgba(248, 243, 243,0.7);
+        color: rgb(51, 6, 175);
+        border-radius: 5px;
+        font-weight: bold;
+        margin: auto;
+        width: 400px;
+        margin-top: 300px;
+        text-align: center;
+    }
+
+    .titulo{
+        margin-bottom: 5px;
+    }
+    .opciones{
+        margin: auto;
+
+    }
+    .opciones p{
+        background: black;
+        display: initial;
+        padding: 12px;
+        color: #ffffff;
+        border-radius: 2px;
+        font-weight: bold;
+    }
+
+    p.p1{
+        position: absolute;
+        top: 500px;
+        left: 50px;
+        /*justify-content: center;*/
+        width: 100px;
+    }
+    p.p1:hover{
+        background: rgb(15, 142, 201);
+        cursor: pointer;
+    }
+
+    p.p2{
+        position: absolute;
+        top: 500px;
+        left: 220px;
+        /*justify-content: center;*/
+        width: 100px;
+    }
+    p.p2:hover{
+        background: rgb(202, 218, 60);
+        cursor: pointer;
+    }
+    #si{
+        background: rgba(15, 122, 5, 0.7);
+        /*justify-content: center;*/
+        left: 0px;
+        position: absolute;
+        top: 122px;
+        width: 350px;
+        color: #ffffff;
+        padding: 50px;
+        display: none;
+    }
+}
